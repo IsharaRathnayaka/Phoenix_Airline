@@ -1,0 +1,8 @@
+ body{
+                background-image: url('flights2.jpg');
+                opacity: 0.9;
+                background-size: cover;
+                margin: 0px;
+                padding: 0p;
+                font-size: 20px;
+            }

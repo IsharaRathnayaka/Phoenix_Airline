@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="CSS/Form.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Navigation.css" rel= "stylesheet" type="text/css">
+        <link href="CSS/head_styles.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Button.css" rel="stylesheet" type="text/css">
+        <style>
+            body{
+             background-image: url('CSS/BG_pictures/BG1.jpg');
+            }
+        </style>
+    </head>
+        
+    <body> 
+         <ul>
+            <li><a class="active" href="Home.html">Home</a></li>
+            <li><a href="index.html">Flight</a></li>
+        </ul>
+    <center>
+        <p class="Head">Phoenix Airline</p>
+        <p style="text-align: center; font-size: 150%; font-family:Verdana, sans-serif; color:#0f97db">
+            Select your position and fly through the sky !
+        </p>
+        <form action='HomePage' method="POST">
+            <table cellspacing='12' style="font-size: 20px;">
+                    <tr>
+                        <td class="select">position</td>
+                        <td><select class="inputs" name="type" style="width: 160px;">
+                                
+                                <option value="admin">Admin</option>
+                                <option value="staff">Staff</option>
+                                <option value="user">User</option>
+                                
+                            </select>
+                        </td>
+                    </tr>       
+            </table>
+            <input class="button" type="submit" value="LOGIN" /> 
+        </form>
+    </center>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+            body{
+                opacity: 0.9;
+                background-size: cover;
+                margin: 0px;
+                padding: 0px;
+                font-size: 20px;
+            }
+           
+            .inputs {
+                width: 130px;
+                padding:6px 50px;
+                border:1px solid gray;
+                border-radius: 5px;
+                font-size: 14px;
+            }
