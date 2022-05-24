@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Staff Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/Form.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Navigation.css" rel= "stylesheet" type="text/css">
+        <link href="CSS/head_styles.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Button.css" rel="stylesheet" type="text/css">
+        <style>
+            body{
+             background-image: url('CSS/BG_pictures/BG4.jpg');
+             background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="Home.html">Home</a></li>
+            <li><a href="index.html">Flight</a></li>
+            <li><a href="StaffReg.html">Registration</a></li>
+            <li><a href="Scheck.jsp">Check Your Profile</a></li>
+        </ul>
+        <center>
+             <p class="Head">Staff Login</p>
+             <form action="StaffLogin" method="POST">
+                 <table cellpadding="9">
+                         <tr >
+                             <td class="select">Staff ID:</td>
+                             <td><input class="inputs" type="text" name="staffid" value="" /></td>
+                         </tr>
+                         <tr>
+                             <td class="select">Password:</td>
+                             <td><input class="inputs" type="password" name="staffpass" value="" /></td>
+                         </tr>
+                         <tr align="center">
+                             <td><input class="button" type="submit" value="LOGIN" /></td>
+                             <td><input class="button" type="reset" value="CLEAR" /></td>
+                         </tr>
+                 </table>
+             </form>
+        </center>
+    </body>
+</html>

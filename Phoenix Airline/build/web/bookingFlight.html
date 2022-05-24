@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Book Flight</title>
+        <meta charset="UTF-8">
+        
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        
+        <link href="CSS/Form.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Navigation.css" rel= "stylesheet" type="text/css">
+        <link href="CSS/head_styles.css" rel="stylesheet" type="text/css">
+        <link href="CSS/Button.css" rel="stylesheet" type="text/css">
+       
+        <Style>
+            body{
+                 background-image: url('CSS/BG_pictures/BG3.jpg');
+            }
+        </style>
+    </head>
+    <body>   
+        <ul>
+            <li><a class="active" href="Home.html">Home</a></li>
+            <li><a href="UserPage.jsp">Profile</a></li>
+           
+        </ul>
+ 
+    <center>
+        <br><br><br>
+        <p class="Head">Book Flight</p>
+         <form action="filterFlights" method="POST">
+               <table>
+                   <tr>
+                       <td>
+                           <input style="width:200px"  class="inputs" type="text" name="departingForm" placeholder="from?">
+                       </td>
+   
+                           <td>
+                               <input style="width:200px"  class="inputs" type="text" name="destination" placeholder="whare?">
+                           </td>
+         
+                       <td>
+                       
+                       <input style="width:200px" class="inputs" type="date" name="departingDate"> 
+                       </td>
+                       
+                   
+                       <td>
+                           <select style="width:200px" name="passenger" class="inputs">
+                               <option>Adult</option>
+                               <option>Student</option>
+                               <option>Youth</option>
+                           </select>
+                       </td>
+                      
+                       <td>
+                          
+                           <select style="width:200px" name="cabinClass" class="inputs">
+                               <option>Cabin Class</option>
+                               <option>Economy</option>
+                               <option>Business</option>
+                               <option>First</option>
+                               </select>
+                           </td>
+                       
+                   </tr>                
+                   </table>
+             <input class="button" type="submit" value="SEARCH">
+           </form>
+        </center>
+    </body>
+</html>

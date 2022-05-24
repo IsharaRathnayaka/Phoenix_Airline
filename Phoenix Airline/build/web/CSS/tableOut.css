@@ -1,0 +1,86 @@
+body{
+
+          font-family: Verdana, sans-serif;
+         font-size: 16px   
+        
+} 
+.inputs {
+            width: 160px;
+            padding:6px 50px;
+            border:1px solid gray;
+           border-radius: 5px;
+            font-size: 14px;
+        }
+
+.container{
+           margin-top:1px;   
+           margin-left:20px;   
+        }
+		
+        .login
+        {
+        	border:1px solid gray;
+        	border-radius: 5px;
+        	background-color:gray;
+        	color:white;
+        	padding: 6px 40px;
+        	font-size: 16px;
+        
+        }
+        .cen{
+             margin-left: auto;
+             margin-right: auto;
+        }
+        
+#flight {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#flight td, #flight th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#flight tr:nth-child(even){background-color: #f2f2f2;}
+#flight tr:nth-child(odd){background-color: #bfbfbf;}
+
+#flight tr:hover {background-color: #545454;}
+
+#flight th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+#flight1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#flight1 td, #flight1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#flight1 tr:nth-child(even){background-color: #424242;}
+#flight1 tr:nth-child(odd){background-color: #2e2e2e;}
+
+#flight1 tr:hover {background-color: #c4c4c4;}
+
+#flight1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+}
+
+
+        
+       
